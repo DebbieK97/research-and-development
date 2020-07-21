@@ -1,2 +1,8 @@
 attach(Reserach)
 summary(PERatio)
+mean(PERatio)
+summary(RSRatio)
+sd(PERatio)
+sd(RSRatio)
+hist(Research$PERatio)
+hist(Research)
