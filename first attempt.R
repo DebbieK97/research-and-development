@@ -5,4 +5,8 @@ summary(RSRatio)
 sd(PERatio)
 sd(RSRatio)
 hist(Research$PERatio)
-hist(Research)
+hist(Research$RSRatio)
+plot(x,y,xlab="PERatio",ylab="RSRatio", main="Research and development")
+x<-PERatio
+y<-RSRatio     
+line(x,y)
